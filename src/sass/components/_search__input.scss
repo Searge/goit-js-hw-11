@@ -5,7 +5,8 @@
   font-family: inherit;
   font-size: clamp(1.7rem, 2.1vw, 2.1rem);
   font-weight: 500;
-  background: 0 0 / 300% 200% radial-gradient(circle at top left, #fff, #ddd);
+  background: 0 0 / 300% 200% radial-gradient(circle at top left, $color-white, #ddd);
+  color: $color-brand;
   border: none;
   border-top: 1px solid rgba(21, 21, 21, 0.1);
   border-left: 1px solid rgba(21, 21, 21, 0.1);
