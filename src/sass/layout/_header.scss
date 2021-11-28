@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 15px 0;
+
+  background: linear-gradient(180deg, rgba($color-accent, 0.21), transparent);
+
+  @include mq($tablet) {
+    padding: 21px 0;
+  }
+}

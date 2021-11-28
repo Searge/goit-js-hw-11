@@ -1,0 +1,18 @@
+.search__btn {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  width: 48px;
+  height: calc(100% - 4px);
+
+  background-color: rgba(#eee, 0.21);
+  transform: translateY(-50%);
+
+  @include transition;
+  transition-property: transform, color;
+
+  &:focus:not(:disabled),
+  &:hover:not(:disabled) {
+    color: var(--color-accent);
+  }
+}

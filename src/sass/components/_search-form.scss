@@ -1,0 +1,10 @@
+.search-form {
+  position: relative;
+
+  // @include transition;
+  // transition-property: transform;
+
+  @include mq($tablet) {
+    width: clamp(21rem, 50%, 30rem);
+  }
+}

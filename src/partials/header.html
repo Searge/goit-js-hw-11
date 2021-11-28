@@ -1,0 +1,30 @@
+<header class="header sl-fixed">
+  <div class="container">
+    <div class="search-wrapper">
+      <form class="search-form" id="search-form">
+        <label class="search__label header__search-label">
+          <input
+            class="search__input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+            maxlength="80"
+            title="Max 80 chars"
+          />
+        </label>
+
+        <button
+          class="search__btn"
+          type="submit"
+          aria-label="Search"
+          data-search-btn
+        >
+          <svg aria-hidden="true" class="search__svg" width="48" height="48">
+            <use href="./images/svg/sprite.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</header>

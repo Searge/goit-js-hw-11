@@ -1,0 +1,21 @@
+:root {
+  --color-brand: #212121;
+  --color-accent: #2196f3;
+  --color-header-bg: #4056b4;
+  --color-white: #ffffff;
+  --color-text: sandybrown;
+  --time: 250ms;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+$color-brand: #212121;
+$color-accent: #2196f3;
+$color-header-bg: #4056b4;
+$color-text: sandybrown;
+$color-white: #ffffff;
+
+$z-index-increment: 3;
+$z-index: ('.header');
+$padding: 20px;
+
+$gap: 3px;

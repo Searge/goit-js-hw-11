@@ -1,0 +1,20 @@
+$mobile: 'mobile';
+$xl-mobile: 'mobile';
+$tablet: 'tablet';
+$desktop: 'desktop';
+$l-desktop: 'l-desktop';
+$xl-desktop: 'xl-desktop';
+
+$breakpoints: (
+  // 'mobile': 320px,
+  'xl-mobile': 480px,
+  'tablet': 768px,
+  'l-tablet': 900px,
+  'xl-tablet': 1050px,
+  's-desktop': 1200px,
+  'desktop': 1350px,
+  'm-desktop': 1500px,
+  'l-desktop': 1650px,
+  'x-desktop': 1800px,
+  'xl-desktop': 1900px
+);

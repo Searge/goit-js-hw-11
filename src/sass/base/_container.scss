@@ -1,0 +1,13 @@
+.container {
+  @include paddings($pr: $padding, $pl: $padding);
+  @include margins($mr: auto, $ml: auto);
+
+  @include transition;
+  transition-property: max-width;
+
+  @each $breakpoint, $value in $breakpoints {
+    @include mq($breakpoint) {
+      max-width: $value;
+    }
+  }
+}

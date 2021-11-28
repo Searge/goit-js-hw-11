@@ -1,0 +1,13 @@
+.search-wrapper {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 21px;
+
+  @include mq($tablet) {
+    gap: 40px;
+  }
+}
