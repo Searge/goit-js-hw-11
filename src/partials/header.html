@@ -5,22 +5,17 @@
         <label class="search__label header__search-label">
           <input
             class="search__input"
-            type="text"
             name="searchQuery"
+            type="text"
+            title="Max 80 chars"
             autocomplete="off"
             placeholder="Search images..."
             maxlength="80"
-            title="Max 80 chars"
           />
         </label>
 
-        <button
-          class="search__btn"
-          type="submit"
-          aria-label="Search"
-          data-search-btn
-        >
-          <svg aria-hidden="true" class="search__svg" width="48" height="48">
+        <button class="search__btn" data-search-btn type="submit" aria-label="Search">
+          <svg class="search__svg" aria-hidden="true" width="48" height="48">
             <use href="./images/svg/sprite.svg#icon-search"></use>
           </svg>
         </button>
